@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A16948F1FBF190E0017EF38 /* ObjcScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A16948E1FBF190E0017EF38 /* ObjcScreenSaverView.h */; };
+		4A1694911FBF190E0017EF38 /* ObjcScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1694901FBF190E0017EF38 /* ObjcScreenSaverView.m */; };
+		4A1694AD1FBF21910017EF38 /* SwiftScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1694AC1FBF21910017EF38 /* SwiftScreenSaverView.swift */; };
+		4ADA048C1FBF29AD004F3F49 /* SwiftScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA048B1FBF29AD004F3F49 /* SwiftScreenSaverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A16948B1FBF190E0017EF38 /* QSaverObjc.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSaverObjc.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A16948E1FBF190E0017EF38 /* ObjcScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcScreenSaverView.h; sourceTree = "<group>"; };
+		4A1694901FBF190E0017EF38 /* ObjcScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcScreenSaverView.m; sourceTree = "<group>"; };
+		4A1694921FBF190E0017EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1694A11FBF1FD90017EF38 /* QSaverSwift4.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSaverSwift4.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1694A71FBF1FD90017EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1694AB1FBF21910017EF38 /* QlaasSaverSwift4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QlaasSaverSwift4-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A1694AC1FBF21910017EF38 /* SwiftScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScreenSaverView.swift; sourceTree = "<group>"; };
+		4ADA04801FBF299A004F3F49 /* QSaverSwift32.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSaverSwift32.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA04861FBF299A004F3F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADA048A1FBF29AD004F3F49 /* QlaasSaverSwift32-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QlaasSaverSwift32-Bridging-Header.h"; sourceTree = "<group>"; };
+		4ADA048B1FBF29AD004F3F49 /* SwiftScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScreenSaverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1694871FBF190E0017EF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16949D1FBF1FD90017EF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA047C1FBF299A004F3F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1694811FBF190E0017EF38 = {
+			isa = PBXGroup;
+			children = (
+				4A16948D1FBF190E0017EF38 /* QlaasSaver */,
+				4A1694A21FBF1FD90017EF38 /* QlaasSaverSwift4 */,
+				4ADA04811FBF299A004F3F49 /* QlaasSaverSwift32 */,
+				4A16948C1FBF190E0017EF38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A16948C1FBF190E0017EF38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A16948B1FBF190E0017EF38 /* QSaverObjc.saver */,
+				4A1694A11FBF1FD90017EF38 /* QSaverSwift4.saver */,
+				4ADA04801FBF299A004F3F49 /* QSaverSwift32.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A16948D1FBF190E0017EF38 /* QlaasSaver */ = {
+			isa = PBXGroup;
+			children = (
+				4A16948E1FBF190E0017EF38 /* ObjcScreenSaverView.h */,
+				4A1694901FBF190E0017EF38 /* ObjcScreenSaverView.m */,
+				4A1694921FBF190E0017EF38 /* Info.plist */,
+			);
+			path = QlaasSaver;
+			sourceTree = "<group>";
+		};
+		4A1694A21FBF1FD90017EF38 /* QlaasSaverSwift4 */ = {
+			isa = PBXGroup;
+			children = (
+				4A1694AC1FBF21910017EF38 /* SwiftScreenSaverView.swift */,
+				4A1694AB1FBF21910017EF38 /* QlaasSaverSwift4-Bridging-Header.h */,
+				4A1694A71FBF1FD90017EF38 /* Info.plist */,
+			);
+			path = QlaasSaverSwift4;
+			sourceTree = "<group>";
+		};
+		4ADA04811FBF299A004F3F49 /* QlaasSaverSwift32 */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA048B1FBF29AD004F3F49 /* SwiftScreenSaverView.swift */,
+				4ADA048A1FBF29AD004F3F49 /* QlaasSaverSwift32-Bridging-Header.h */,
+				4ADA04861FBF299A004F3F49 /* Info.plist */,
+			);
+			path = QlaasSaverSwift32;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A1694881FBF190E0017EF38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A16948F1FBF190E0017EF38 /* ObjcScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16949E1FBF1FD90017EF38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA047D1FBF299A004F3F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A16948A1FBF190E0017EF38 /* QlaasSaverObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1694951FBF190E0017EF38 /* Build configuration list for PBXNativeTarget "QlaasSaverObjc" */;
+			buildPhases = (
+				4A1694861FBF190E0017EF38 /* Sources */,
+				4A1694871FBF190E0017EF38 /* Frameworks */,
+				4A1694881FBF190E0017EF38 /* Headers */,
+				4A1694891FBF190E0017EF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlaasSaverObjc;
+			productName = QlaasSaver;
+			productReference = 4A16948B1FBF190E0017EF38 /* QSaverObjc.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4A1694A01FBF1FD90017EF38 /* QlaasSaverSwift4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1694A81FBF1FD90017EF38 /* Build configuration list for PBXNativeTarget "QlaasSaverSwift4" */;
+			buildPhases = (
+				4A16949C1FBF1FD90017EF38 /* Sources */,
+				4A16949D1FBF1FD90017EF38 /* Frameworks */,
+				4A16949E1FBF1FD90017EF38 /* Headers */,
+				4A16949F1FBF1FD90017EF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlaasSaverSwift4;
+			productName = QlaasSaverSwift4;
+			productReference = 4A1694A11FBF1FD90017EF38 /* QSaverSwift4.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4ADA047F1FBF299A004F3F49 /* QlaasSaverSwift32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADA04871FBF299A004F3F49 /* Build configuration list for PBXNativeTarget "QlaasSaverSwift32" */;
+			buildPhases = (
+				4ADA047B1FBF299A004F3F49 /* Sources */,
+				4ADA047C1FBF299A004F3F49 /* Frameworks */,
+				4ADA047D1FBF299A004F3F49 /* Headers */,
+				4ADA047E1FBF299A004F3F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlaasSaverSwift32;
+			productName = QlaasSaverSwift32;
+			productReference = 4ADA04801FBF299A004F3F49 /* QSaverSwift32.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A1694821FBF190E0017EF38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Park Bench";
+				TargetAttributes = {
+					4A16948A1FBF190E0017EF38 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					4A1694A01FBF1FD90017EF38 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					4ADA047F1FBF299A004F3F49 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A1694851FBF190E0017EF38 /* Build configuration list for PBXProject "QlaasSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A1694811FBF190E0017EF38;
+			productRefGroup = 4A16948C1FBF190E0017EF38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A16948A1FBF190E0017EF38 /* QlaasSaverObjc */,
+				4A1694A01FBF1FD90017EF38 /* QlaasSaverSwift4 */,
+				4ADA047F1FBF299A004F3F49 /* QlaasSaverSwift32 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1694891FBF190E0017EF38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16949F1FBF1FD90017EF38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA047E1FBF299A004F3F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A1694861FBF190E0017EF38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1694911FBF190E0017EF38 /* ObjcScreenSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16949C1FBF1FD90017EF38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1694AD1FBF21910017EF38 /* SwiftScreenSaverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA047B1FBF299A004F3F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADA048C1FBF29AD004F3F49 /* SwiftScreenSaverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A1694931FBF190E0017EF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A1694941FBF190E0017EF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A1694961FBF190E0017EF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaver;
+				PRODUCT_NAME = QSaverObjc;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4A1694971FBF190E0017EF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaver;
+				PRODUCT_NAME = QSaverObjc;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		4A1694A91FBF1FD90017EF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaverSwift4/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaverSwift4;
+				PRODUCT_NAME = QSaverSwift4;
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSaverSwift4/QlaasSaverSwift4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4A1694AA1FBF1FD90017EF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaverSwift4/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaverSwift4;
+				PRODUCT_NAME = QSaverSwift4;
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSaverSwift4/QlaasSaverSwift4-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		4ADA04881FBF299A004F3F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaverSwift32/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaverSwift32;
+				PRODUCT_NAME = QSaverSwift32;
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSaverSwift32/QlaasSaverSwift32-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4ADA04891FBF299A004F3F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSaverSwift32/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSaverSwift32;
+				PRODUCT_NAME = QSaverSwift32;
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSaverSwift32/QlaasSaverSwift32-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A1694851FBF190E0017EF38 /* Build configuration list for PBXProject "QlaasSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1694931FBF190E0017EF38 /* Debug */,
+				4A1694941FBF190E0017EF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1694951FBF190E0017EF38 /* Build configuration list for PBXNativeTarget "QlaasSaverObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1694961FBF190E0017EF38 /* Debug */,
+				4A1694971FBF190E0017EF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1694A81FBF1FD90017EF38 /* Build configuration list for PBXNativeTarget "QlaasSaverSwift4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1694A91FBF1FD90017EF38 /* Debug */,
+				4A1694AA1FBF1FD90017EF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADA04871FBF299A004F3F49 /* Build configuration list for PBXNativeTarget "QlaasSaverSwift32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA04881FBF299A004F3F49 /* Debug */,
+				4ADA04891FBF299A004F3F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A1694821FBF190E0017EF38 /* Project object */;
+}
