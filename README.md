@@ -23,6 +23,8 @@ _OBJC_CLASS_$_NSError in /Users/klaas/Library/Screen Savers/QSaverSwift4.saver/C
 because dependent dylib #1 could not be loaded in /Users/klaas/Library/Screen Savers/QSaverSwift4.saver/Contents/MacOS/../Frameworks/libswiftCore.dylib
 ````
 
+Within the Apple screen saver Preview UI this text is displayed: *"You cannot use the QSaverSwift4 screen saver with this version of macOS. Please contact the vendor to get a newer version of the screen saver."*. This is more or less a generic error that is shown when something does not work.
+
 The screen saver itself still runs fine. But without the possibility to access the settings it is quite unusable.
 
 ## Related 
@@ -35,6 +37,12 @@ and created a bug report (<rdar://25569037> and <http://openradar.appspot.com/25
 * Quinn "The Eskimo!" (from Apple) commented on a similar issue in Oct 2017 on the dev forums: <https://forums.developer.apple.com/message/268934#268934>
 
 * There are similar issues when writing preferences panes: <https://stackoverflow.com/questions/32041677/using-swift-with-an-os-x-preference-pane-plugin>
+
+## Current findings and failed solutions
+
+* My first guess was, that the issue is related to Swift 4. But using Swift 3.2 with Xcode 9.1 does not change anything.
+* The issue is the same regardless of building on Sierra or High Sierra.
+* The issue does not occur on macOS Sierra.
 
 ## Background
 
