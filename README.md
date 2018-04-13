@@ -1,3 +1,8 @@
+## Update 2018-04-13:
+
+**The problem is fixed by Apple. No code changes required when using the latest macOS 10.13.4 (17E199), Xcode 9.3 (9E145) and Swift 4.1 (swiftlang-902.0.48 clang-902.0.37.1).**
+
+
 ## Screen Savers written in Swift (and compiled with Xcode 9.1) do not work within the System Preferences on macOS High Sierra anymore.
 
 This repository contains a Xcode 9.1 project with 3 simple screen saver targets to demonstrate an issue with Swift and the Screen Saver System Preferences. The project was freshly created with Xcode 9.1 (9B55) for an Apple radar submission.
